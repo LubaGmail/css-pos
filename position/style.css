@@ -1,0 +1,70 @@
+/* Normal Document Workflow */
+
+html {
+    background-color: #fa923f;
+    padding: 10px;
+}
+
+body {
+    background-color: yellow;
+    padding: 10px;
+    margin: 0;
+
+}
+
+header {
+    background-color: #f073e1;
+    margin: 10px;
+}
+
+nav {
+    background-color: #f073e1;
+    margin: 10px;
+}
+
+.pos-static {
+    position: static;
+    background-color: black;
+    color: white;
+    border: 3px solid #73AD21;
+    margin: 20px;
+    padding: 30px;
+}
+
+.pos-relative {
+    position: relative;
+    left: 30px;
+    top: 20px;
+    background-color: limegreen;
+    color: black;
+    border: 3px solid brown;
+    margin: 20px;
+    padding: 30px;
+}
+
+.pos-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: darkmagenta;
+    color: white;
+    padding: 20px;
+    width: 400px;
+    border: 3px solid #73AD21;
+}
+
+.pos-absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    background-color: blue;
+    color: yellow;
+    padding: 15px;
+    border: 3px solid #73AD21;
+}
+
+footer {
+    background-color: #f073e1; 
+    margin: 10px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+    <title>Clear Property</title>
+</head>
+<body>
+    <h2>Clear Property</h2>
+    <ul>
+        <li><b>none</b> - Allows floating elements on both sides. This is default</li>
+        <li><b>left</b> - No floating elements allowed on the left side</li>
+        <li><b>right</b>- No floating elements allowed on the right side</li>
+        <li><b>both</b> - No floating elements allowed on either the left or the right side</li>
+        <li><b>inherit</b> - The element inherits the clear value of its parent</li>
+    </ul>
+    <div style='background-color: bisque'>
+        <h3>Clear none</h3>
+        <div class="div1">div1</div>
+        <div class="div2">
+            div2 - Notice that div2 is after div1 in the HTML code. However, since div1 floats to
+            the left, the text in div2 flows around div1.
+        </div>
+        <br><br>
+    </div>
+
+    <div style='background-color: rgb(196, 222, 255)'>
+        <h3>Clear left</h3>
+        <div class="div3">div3</div>
+        <div class="div4">
+            div4 - Here, clear: left; moves div4 down below the floating div3. The value "left" clears elements floated to the left. You can also clear "right" and "both".
+        </div>
+        <br><br>
+    </div>
+
+    <div style='background-color: rgb(196, 255, 223)'>
+        <h3>Clear both</h3>
+        <div class="div5">div5</div>
+        <div class="div6">
+            div6 - Here, clear: both
+         </div>
+        <br><br>
+    </div>
+    
+</body>
+</html>

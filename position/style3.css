@@ -1,0 +1,35 @@
+html {
+    background-color: #fa923f;
+    padding: 10px;
+}
+
+/*
+If we add abslute pos to the body el. then the contining element becomes body and not HTML
+*/
+body {
+    background-color: yellow;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 50px;
+}
+
+/*
+Absolute - in ref to the pos. of containing element, in our case HTML el.
+*/
+header {
+    background-color: #f073e1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    background-color: #f073e1;
+    margin: 10px;
+}
+
+footer {
+    background-color: #f073e1; 
+    margin: 10px;
+}

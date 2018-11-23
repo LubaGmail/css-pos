@@ -1,0 +1,23 @@
+span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;        
+    background-color: yellow; 
+}
+
+.in {
+    display: inline;
+    font-size: x-large;
+    background-color: blueviolet;
+}
+
+span.b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;        
+    background-color: yellow; 
+}

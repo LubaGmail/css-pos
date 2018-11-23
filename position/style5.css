@@ -1,0 +1,41 @@
+html {
+    background-color: #fa923f;
+    padding: 10px;
+    height: 3000px;
+}
+
+/*
+Push down body by 50px relatively to the parent - html el.
+*/
+body {
+    background-color: yellow;
+    padding: 10px;
+    margin: 0;
+    position: relative;
+    top: 50px;
+}
+
+/*
+*/
+header {
+    background-color: #f073e1;
+    position: fixed;
+    top: 0;
+    left: 20px;
+    z-index: 2;
+}
+
+nav {
+    background-color: #f073e1;
+    margin: 10px;
+}
+
+/*
+Fixed refers to the viewport. The viewport is the user's visible area of a web page
+*/
+footer {
+    background-color: #f073e1; 
+    /* margin: 10px; */
+    position: fixed;
+    top: 0;
+}
